@@ -1,0 +1,15 @@
+<div class="align-center font-weight-bolder border-right w1p">MM</div>
+<div class="align-center font-weight-bolder border-right w1p">SM</div>
+<div class="align-center font-weight-bolder border-right w1p">ID</div>
+<div class="align-center font-weight-bolder border-right">title</div>
+<div class="align-center font-weight-bolder border-right w5p">subid</div>
+<div class="align-center font-weight-bolder border-right w5p">hassubmenu</div>
+<div class="align-center font-weight-bolder border-right">link</div>
+<div class="align-center font-weight-bolder border-right w7p">order</div>
+<div class="align-center font-weight-bolder border-right w7p">access</div>
+<div class="align-center font-weight-bolder border-right w5p">enabled</div>
+<div class="align-center font-weight-bolder border-right w5p">header</div>
+<div class="align-center font-weight-bolder border-right w5p">divbef</div>
+<div class="align-center font-weight-bolder w5p">divaft</div>
+<div class="align-center font-weight-bolder w5p">newwin</div>
+<div class="align-center font-weight-bolder w5p">action</div>

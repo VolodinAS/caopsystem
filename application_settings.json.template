@@ -1,0 +1,10 @@
+{
+  "DOMAIN_settings": {
+	"db_host": "хост",
+	"db_name": "имя БД",
+	"db_user": "пользователь",
+	"db_password": "пароль",
+	"domain": "домен",
+	"columns": "Tables_in_ПОЛЕ_ДЛЯ_ПОЛУЧЕНИЯ_ИМЕНИ_ТАБЛИЦЫ"
+  }
+}

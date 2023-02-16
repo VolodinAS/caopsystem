@@ -1,0 +1,12 @@
+<div class="align-center font-weight-bolder border-right w1p">#</div>
+<div class="align-center font-weight-bolder border-right w1p">ID</div>
+<div class="align-center font-weight-bolder border-right">title</div>
+<div class="align-center font-weight-bolder border-right">link</div>
+<div class="align-center font-weight-bolder border-right">head</div>
+<div class="align-center font-weight-bolder border-right w1p">access</div>
+<div class="align-center font-weight-bolder border-right w1p">container</div>
+<div class="align-center font-weight-bolder border-right w7p">icon</div>
+<div class="align-center font-weight-bolder border-right w7p">icon_ext</div>
+<div class="align-center font-weight-bolder border-right w1p">calendar</div>
+<div class="align-center font-weight-bolder border-right w1p">process</div>
+<div class="align-center font-weight-bolder w5p">action</div>

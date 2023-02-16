@@ -1,0 +1,18 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+# Не применять к существующим файлам файлам
+RewriteCond %{REQUEST_FILENAME} !-f
+# Не применять к существующим директориям
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php
+
+#Options -Indexes
+#Options -Includes
+#Options +FollowSymlinks
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+
+<FilesMatch ".(jpg|png|gif)$">
+  Header unset Cache-Control
+</FilesMatch>

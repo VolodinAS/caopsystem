@@ -1,0 +1,292 @@
+.mysqleditor,
+.mysqleditor-modal-form,
+.mysqleditor-filters,
+.snils,
+.required-field
+{
+
+}
+
+.valign-top
+{
+    vertical-align: top; !important;
+}
+
+.striked
+{
+    text-decoration: line-through;
+}
+
+tr.jquery-multi-select-checkbox-checked {
+    background: #ebf9ff;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(/engine/images/icons/check_radio_sheet.png) left top no-repeat;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background: url(/engine/images/icons/check_radio_sheet.png) -19px top no-repeat;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(/engine/images/icons/check_radio_sheet.png) -38px top no-repeat;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background: url(/engine/images/icons/check_radio_sheet.png) -57px top no-repeat;
+}
+
+* {
+    margin: 0;
+}
+
+.nondisplay {
+    display: none;
+}
+
+.div-inline {
+    display: inline-block;
+}
+
+.div-jinline {
+    display: inline;
+}
+
+.input-padding {
+    padding: 2px;
+    /*margin: 2px;*/
+}
+
+.tablesorter-headerDesc {
+    background-image: url(https://volodinas.ru/include/images/desc.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: #9fbfdf;
+}
+
+.tablesorter-headerAsc {
+    background-image: url(https://volodinas.ru/include/images/asc.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: #9fbfdf;
+}
+
+.tablesorter-headerUnSorted {
+    background-image: url(https://volodinas.ru/include/images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+
+.size-20pt {
+    font-size: 20pt;
+}
+
+.size-16pt {
+    font-size: 16pt;
+}
+
+.size-12pt {
+    font-size: 12pt;
+}
+
+.size-10pt {
+    font-size: 10pt;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.full-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.manual-img {
+    height: 150px;
+}
+
+.russianPhone, .russianBirth, .russianBirthDayMonth, .russianTime, .mkbDiagnosis, .cartridge-ident {
+    cursor: pointer;
+}
+
+.img-zoom {
+    cursor: pointer;
+}
+
+.tbc {
+    border-collapse: collapse;
+}
+
+.tbc-border, .tbc-border thead tr th, .tbc-border tbody tr td
+{
+    border: solid 1px #000;
+}
+
+tbody tr:hover {
+    background: #f3bd48; /* Цвет фона при наведении */
+}
+
+mark {
+    background: orange;
+    color: black;
+}
+
+.container-fluid {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.class-for-copy {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    /*display: none;*/
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+#overlayLoader {
+    width: 100%;
+    /*margin-top: -50%;*/
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: url("/engine/images/loader/hearts_loader.gif") no-repeat center center rgba(0, 0, 0, 0.25)
+}
+
+#overlayLoader div {
+    background-color: #0f76ff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    top: 45%;
+    left: 45%;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+/*.modal:nth-of-type(even) {*/
+/*    z-index: 1052 !important;*/
+/*}*/
+/*.modal-backdrop.show:nth-of-type(even) {*/
+/*    z-index: 1051 !important;*/
+/*}*/
+
+.cursor-wait {
+    cursor: wait !important;
+}
+
+.br-10px {
+    border-radius: 10px;
+}
+
+.pd-5px {
+    padding: 5px;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.w1p {
+    width: 1%;
+}
+
+.w5p {
+    width: 5%;
+}
+
+.w7p {
+    width: 7%;
+}
+
+.w10p {
+    width: 10%;
+}
+
+tr:target {
+    background: lightyellow;
+}
+
+.header-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.header-sticky-2 {
+    position: sticky;
+    top: 20px;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.error {
+    color: red;
+}
